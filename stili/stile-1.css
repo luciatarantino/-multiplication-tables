@@ -1,0 +1,60 @@
+*{box-sizing: border-box}
+
+body{
+    margin: 0;
+    background-color: #BBDEFB;
+    font-family: 'Delius', cursive;
+    background-image: url(../img/Asset%202.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+body h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #F44336;
+}
+
+body ul{
+   margin: 0 auto;
+   padding: 50px 0px;
+    list-style: none;
+    width: 1000px;
+    background-color: #fff;
+}
+
+body ul li{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;  
+}
+
+body ul li img{
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    display: none;
+}
+
+body ul ul{
+    overflow: auto;
+    width: 800px;
+    /*margin: 30px auto 100px;*/
+    padding: 0;
+}
+
+body ul ul li{
+   float: left;
+    font-size: 3rem;
+    width: 140px;
+    height: 100px;
+    border: 2px black solid;
+    padding: 16px;
+    margin: 0 30px;
+    cursor: pointer;
+}
